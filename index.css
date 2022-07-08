@@ -1,0 +1,92 @@
+
+body {
+    background:url("E:/web development projects/Moonsor Project/images/maxresdefault(1).jpg") repeat-x;
+    height: 750px;
+    width: 680px;
+    background-repeat:repeat;
+      background-attachment: scroll;
+      position:absolute;
+      left:0;
+      top:0;
+      animation: slideshow 10s linear infinite;
+ }
+
+  
+  .title
+  {
+      color:white;
+      font-family: "Orbitron";
+      font-size:30px;
+      padding-top: 20px;
+      padding-left:15px;
+      /* margin ; */
+      /* padding:10px;  */
+  }
+
+  .sea{
+      color:rgb(51,204,204);
+  }
+
+  .inputbar{
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+    width:500px;
+    padding:3px;
+    border-color: rgb(51,204,204);
+    margin-left:45%;
+    color:rgb(51,204,204);
+    margin-top:-45px;
+    font-weight: bold;
+    background: url("E:/web development projects/Moonsor Project/images/icons8-search-30.png") no-repeat  right center;
+}
+
+.navbarcolor{
+    text-decoration: none;
+    padding:8px;
+    color:rgb(51,204,204);
+    font-size: 20px;
+}
+.navbarcolor:active{
+    color:white;
+    text-decoration: none;
+    padding:8px;
+    font-size: 20px;
+}
+.upload{
+    font-size: 50px;
+    color: white;
+}
+.createNFT{
+    /* margin-left:100%;
+    color:white;
+    float: left; */
+    display: inline; /* the default for span */
+    /* padding: 5px; */
+    margin-left:45%;
+    color:rgb(51,204,204);
+    /* margin-right:100%; */
+    font-weight: 10px;
+}
+#background{
+    margin-left:150%;
+    margin-top:-10%;
+    
+   
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .myheader
+  {
+    position: sticky;
+    top:0;
+    position:fixed;
+    overflow: hidden;
+  }
+  
